@@ -1,3 +1,20 @@
 footer.footer {
     background-color: royalblue;
 }
+
+nav.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a.nav-item {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: white;
+}
+
+a.nav-item:hover {
+    border-bottom: 1px solid white;
+} 
