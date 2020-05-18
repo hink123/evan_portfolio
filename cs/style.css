@@ -19,3 +19,17 @@ a.nav-item {
 a.nav-item:hover {
     border-bottom: 1px solid white;
 } 
+
+div.nav-align {
+    display: flex;
+}
+
+div.title {
+    margin: auto;
+}
+
+@media (max-width: 1024px) {
+    div.title {
+        margin: 0;
+    }
+}
