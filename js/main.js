@@ -1,5 +1,5 @@
 const burger = document.querySelector('.navbar-burger');
-const dropDown = document.querySelector('.navbar');
+const dropDown = document.querySelector('.navbar-menu');
 
 burger.addEventListener('click', () => {
     burger.classList.toggle('is-active');
