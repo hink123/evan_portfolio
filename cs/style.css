@@ -32,4 +32,12 @@ div.title {
     div.title {
         margin: 0;
     }
+
+    div.navbar-menu {
+        display: none
+    }
+
+    div.is-active {
+        display: block
+    }
 }
