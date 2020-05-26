@@ -33,6 +33,16 @@ div.slide {
     animation-name: slidedown;
 }
 
+a.left-slide {
+    animation-duration: 3s;
+    animation-name: slideleft;
+}
+
+a.right-slide {
+    animation-duration: 3s;
+    animation-name: slideright;
+}
+
 @keyframes slidedown {
     from {
         margin-top: 100%;
@@ -41,6 +51,24 @@ div.slide {
     to {
         margin-top: 0%;
         height: 100%;
+    }
+}
+
+@keyframes slideleft {
+    from {
+        margin-right: 100%;
+    }
+    to {
+        margin-right: 5rem;
+    }
+}
+
+@keyframes slideright {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 5rem;
     }
 }
 
