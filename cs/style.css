@@ -26,6 +26,19 @@ div.nav-align {
 
 div.title {
     margin: auto;
+    animation-duration: 3s;
+    animation-name: slidedown;
+}
+
+@keyframes slidedown {
+    from {
+        margin-bottom: 100%;
+        width: 300%;
+    }
+    to {
+        margin-bottom: 0%;
+        width: 100%;
+    }
 }
 
 @media (max-width: 1024px) {
