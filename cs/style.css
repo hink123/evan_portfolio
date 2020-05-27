@@ -3,6 +3,10 @@ footer.footer {
     padding-bottom: 3rem;
 }
 
+section.top-hero {
+    border: 2px solid royalblue;
+}
+
 div.center {
     display: flex;
     flex-direction: row;
@@ -13,7 +17,7 @@ div.center {
 a.nav-item {
     margin-left: 5rem;
     margin-right: 5rem;
-    color: white;
+    color: royalblue;
 }
 
 a.nav-item:hover {
