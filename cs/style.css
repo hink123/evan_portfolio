@@ -21,7 +21,7 @@ a.nav-item {
 }
 
 a.nav-item:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid royalblue;
 } 
 
 div.nav-align {
@@ -30,6 +30,8 @@ div.nav-align {
 
 div.title {
     margin: auto;
+    color: royalblue;
+    font-family: 'Roboto Slab', serif;
 }
 
 div.slide {
